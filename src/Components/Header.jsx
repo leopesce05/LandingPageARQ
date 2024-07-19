@@ -29,6 +29,7 @@ export default function Header() {
         }
         
     }
+
     return (
             <nav>
                 <a href=""><h2 className='titleFont'>+T Arquitectura</h2></a>
@@ -59,6 +60,7 @@ export default function Header() {
                                     <span></span>
                                     <span></span>
                             </label>
+
                             <div className={`elemento ${mostrar ? 'mostrar' : ''}`} >
                                 <ul>
                                     <li><a href="#servicios" onClick={()=>navClick()}>Servicios</a></li>
