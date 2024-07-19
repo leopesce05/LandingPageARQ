@@ -22,6 +22,40 @@ export default function Page() {
             <section id='inicio '>
 
             </section>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+            <h1>asd</h1>
+
             <section id='servicios' className='servicios'>
                 <div className="service" data-aos="fade-right">
                     <div className="imgBack">

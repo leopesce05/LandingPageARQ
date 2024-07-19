@@ -53,19 +53,19 @@ export default function Header() {
                     {/* RESPONSIVE */}
                     <ClickAwayListener onClickAway={()=>handleAwayClick()}> 
                         <div>
-                        <label className="burger menu" htmlFor="burger">
-                                <input onChange={()=>toggleIzq()} type="checkbox" id="burger"></input>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                        </label>
-                        <div className={`elemento ${mostrar ? 'mostrar' : ''}`} >
-                            <ul>
-                                <li><a href="#servicios" onClick={()=>navClick()}>Servicios</a></li>
-                                <li><a href="#proyectos" onClick={()=>navClick()}>Proyectos</a></li>
-                                <li><a href="#contacto" onClick={()=>navClick()}>Contacto</a></li>
-                            </ul>
-                        </div>
+                            <label className="burger menu" htmlFor="burger">
+                                    <input onChange={()=>toggleIzq()} type="checkbox" id="burger"></input>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                            </label>
+                            <div className={`elemento ${mostrar ? 'mostrar' : ''}`} >
+                                <ul>
+                                    <li><a href="#servicios" onClick={()=>navClick()}>Servicios</a></li>
+                                    <li><a href="#proyectos" onClick={()=>navClick()}>Proyectos</a></li>
+                                    <li><a href="#contacto" onClick={()=>navClick()}>Contacto</a></li>
+                                </ul>
+                            </div>
                         </div>
                         
                     </ClickAwayListener>
