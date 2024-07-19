@@ -1,5 +1,5 @@
 {
-  "name": "t_arq",
+  "name": "asd",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,27 +11,17 @@
     "start": "serve dist -s -n -L -p $PORT"
   },
   "dependencies": {
-    "@mui/base": "^5.0.0-beta.40",
-    "aos": "^2.3.4",
-    "flowbite": "^2.4.1",
-    "flowbite-react": "^0.10.1",
-    "install": "^0.13.0",
-    "npm": "^10.8.2",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "serve": "^14.2.3"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react-swc": "^3.5.0",
-    "autoprefixer": "^10.4.19",
+    "@vitejs/plugin-react": "^4.3.1",
     "eslint": "^8.57.0",
-    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
-    "postcss": "^8.4.39",
-    "tailwindcss": "^3.4.6",
-    "vite": "^5.3.1"
+    "vite": "^5.3.4"
   }
 }
