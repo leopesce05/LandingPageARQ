@@ -1,20 +1,9 @@
 import './Page.css'
-import { useEffect } from 'react'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
 
 import arq1 from './../assets/images/arq3.png'
-
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.compat.css"
 export default function Page() {
-
-    useEffect(() => {
-        Aos.init({
-            duration: 500,
-            offset: 50,
-            easing: 'ease-in-sine',
-            once: true 
-        })
-    },[])
 
     return (
         <div className='mainP'>
@@ -28,29 +17,54 @@ export default function Page() {
             <section id='inicio '>
 
             </section>
-
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
+            <h2>asd</h2>
             <section id='servicios' className='servicios'>
+                <ScrollAnimation animateIn="fadeInLeft">
+                    <div className="service">
+                        <div className="imgBack">
+                            <img className='servImg' src={arq1} alt="lalala" />
+                        </div>
+                        <div className="servInfo">
+                            <h3>Servicio 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste tenetur doloribus, beatae excepturi voluptatum quaerat harum eveniet, natus quisquam accusamus cum modi perferendis libero placeat assumenda corrupti aliquid ad consequuntur.</p>
+                        </div>
+                    </div>
+                </ScrollAnimation>
 
-                <div className="service" data-aos="">
-                    <div className="imgBack">
-                        <img className='servImg' src={arq1} alt="lalala" />
+                <ScrollAnimation animateIn="fadeInRight">
+                    <div className="service">
+                        <div className="servInfo">
+                            <h3>Servicio 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste tenetur doloribus, beatae excepturi voluptatum quaerat harum eveniet, natus quisquam accusamus cum modi perferendis libero placeat assumenda corrupti aliquid ad consequuntur.</p>
+                        </div>
+                        <div className="imgBack2">
+                            <img className='servImg' src={arq1} alt="lalala" />
+                        </div>
                     </div>
-                    <div className="servInfo">
-                        <h3>Servicio 1</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste tenetur doloribus, beatae excepturi voluptatum quaerat harum eveniet, natus quisquam accusamus cum modi perferendis libero placeat assumenda corrupti aliquid ad consequuntur.</p>
-                    </div>
-                </div>
-
-
-                <div className="service" data-aos="">
-                    <div className="servInfo">
-                        <h3>Servicio 1</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste tenetur doloribus, beatae excepturi voluptatum quaerat harum eveniet, natus quisquam accusamus cum modi perferendis libero placeat assumenda corrupti aliquid ad consequuntur.</p>
-                    </div>
-                    <div className="imgBack2">
-                        <img className='servImg' src={arq1} alt="lalala" />
-                    </div>
-                </div>
+                </ScrollAnimation>
 
 
             </section>
