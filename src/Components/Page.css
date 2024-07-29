@@ -141,7 +141,12 @@ section h2{
     height: 1rem;
     width: 1rem;
   }
-  
+.cImg{
+    width: 80%;
+    margin: auto;
+}
+
+
   .name {
     margin-top: 0.25rem;
     font-size: 1.125rem;
@@ -159,6 +164,10 @@ section h2{
     color: rgba(107, 114, 128, 1);
   }
 @media (max-width: 768px){
+    .cImg{
+        width: 90%;
+        margin: auto;
+    }
     section{
         width: 100vw;
         margin: 0;

@@ -1,24 +1,10 @@
 import './Page.css'
 import "animate.css/animate.compat.css"
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
-
-import Slider from "react-slick";
 import arq1 from './../assets/images/arq3.png'
 import ScrollAnimation from 'react-animate-on-scroll';
-
+import PCarousel from './PCarousel';
 export default function Page() {
-
-    const settings = {
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        speed: 3000,
-        autoplaySpeed: 1000,
-        cssEase: "linear"
-    };
 
     return (
         <div className='mainP'>
@@ -29,8 +15,7 @@ export default function Page() {
                 </a>
             </svg>
 
-            <section id='inicio '>
-
+            <section id='inicio'>
             </section>
 
             <section id='servicios' className='servicios'>
@@ -62,12 +47,14 @@ export default function Page() {
 
             <section id='proyectos' className='proyectos'>
                 <h2>Nuestros trabajos</h2>
+                <PCarousel />
             </section>
             
             {/* ARREGLAR EL ESPACIO A LA IQUIERDA */}
             <section id='referencias' className="">
                 <p>*REFERENCIAS Y COMENTARIOS*</p>
             </section>
+           
             <section id='contacto' className='contacto'>
                 <h2>Contacto</h2>
             </section>
