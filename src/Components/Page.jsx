@@ -63,15 +63,11 @@ export default function Page() {
             <section id='proyectos' className='proyectos'>
                 <h2>Nuestros trabajos</h2>
             </section>
-
-            <section id='empresas' className='carrouselEmpresas'>
-                <h2>Empresas que confiaron en nosotros</h2>
-            </section>
             
             {/* ARREGLAR EL ESPACIO A LA IQUIERDA */}
-            <div id='referencias' className="">
-                <p>lalala</p>
-            </div>
+            <section id='referencias' className="">
+                <p>*REFERENCIAS Y COMENTARIOS*</p>
+            </section>
             <section id='contacto' className='contacto'>
                 <h2>Contacto</h2>
             </section>
