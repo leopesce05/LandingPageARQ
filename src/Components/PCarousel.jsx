@@ -7,11 +7,11 @@ function PCarousel() {
     <Carousel data-bs-theme="dark">
 
       
-      <Carousel.Item interval={500}>
+      <Carousel.Item interval={2000}>
       <img className='cImg' src={i2} />
       </Carousel.Item>
 
-      <Carousel.Item>
+      <Carousel.Item interval={2000}>
         <img className='cImg' src={i3} />
 
       </Carousel.Item>
