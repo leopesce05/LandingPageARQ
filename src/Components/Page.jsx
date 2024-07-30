@@ -4,6 +4,7 @@ import "animate.css/animate.compat.css"
 import arq1 from './../assets/images/arq3.png'
 import ScrollAnimation from 'react-animate-on-scroll';
 import PCarousel from './PCarousel';
+import TCarousel from './TCarousel';
 export default function Page() {
 
     return (
@@ -16,6 +17,8 @@ export default function Page() {
             </svg>
 
             <section id='inicio'>
+                <h1>INICIO</h1>
+                <h1>foto fondo</h1>
             </section>
 
             <section id='servicios' className='servicios'>
@@ -46,20 +49,14 @@ export default function Page() {
             </section>
 
             <section id='proyectos' className='proyectos'>
-                <h2>Nuestros trabajos</h2>
+                <h2 className="title2">Nuestros trabajos</h2>
                 <PCarousel />
             </section>
             
             {/* ARREGLAR EL ESPACIO A LA IQUIERDA */}
             <section id='referencias' className="">
-                <p>*REFERENCIAS Y COMENTARIOS*</p>
-            </section>
-           
-            <section id='contacto' className='contacto'>
-                <h2>Contacto</h2>
-            </section>
-
-            
+                <TCarousel />
+            </section> 
         </div>
     )
 }
