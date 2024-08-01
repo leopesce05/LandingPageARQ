@@ -17,8 +17,10 @@ export default function Page() {
             </svg>
 
             <section id='inicio'>
-                <h1>INICIO</h1>
-                <h1>foto fondo</h1>
+                <div className="content">
+                    <h1>Soluciones...</h1>
+                    <p>presentacion</p>
+                </div>
             </section>
 
             <section id='servicios' className='servicios'>
