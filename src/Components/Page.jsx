@@ -1,7 +1,6 @@
 import './Page.css'
 import "animate.css/animate.compat.css"
 
-import arq1 from './../assets/images/arq3.png'
 import ScrollAnimation from 'react-animate-on-scroll';
 import PCarousel from './PCarousel';
 import TCarousel from './TCarousel';
@@ -28,7 +27,7 @@ export default function Page() {
                 <ScrollAnimation animateOnce="true" animateIn="fadeInLeft">
                     <div className="service">
                         <div className="imgBack">
-                            <img className='servImg' src={arq1} alt="lalala" />
+                            <img className='servImg' src="/assets/images/arq3.png" alt="lalala" />
                         </div>
                         <div className="servInfo">
                             <h3>Servicio 1</h3>
@@ -44,7 +43,7 @@ export default function Page() {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste tenetur doloribus, beatae excepturi voluptatum quaerat harum eveniet, natus quisquam accusamus cum modi perferendis libero placeat assumenda corrupti aliquid ad consequuntur.</p>
                         </div>
                         <div className="imgBack2">
-                            <img className='servImg' src={arq1} alt="lalala" />
+                            <img className='servImg' src="/assets/images/arq3.png" alt="lalala" />
                         </div>
                     </div>
                 </ScrollAnimation>

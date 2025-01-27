@@ -1,20 +1,21 @@
 import Carousel from 'react-bootstrap/Carousel';
-import i2 from '../assets/images/i2.jpg';
-import i3 from '../assets/images/i3.jpg';
+import { archivos } from './../fotos';
 
 function PCarousel() {
   return (
     <Carousel data-bs-theme="dark">
-
-      
-      <Carousel.Item interval={2000}>
-      <img className='cImg' src={i2} />
-      </Carousel.Item>
-
-      <Carousel.Item interval={2000}>
-        <img className='cImg' src={i3} />
-
-      </Carousel.Item>
+      {archivos.map((archivo, index) => {
+        return (
+          <Carousel.Item interval={2000} key={index}>
+            {/* Acceder a las imágenes de la carpeta 'public' */}
+            <img 
+              className="cImg" 
+              src={`./carrousel/${archivo}`} 
+              alt={`imagen-${index}`} 
+            />
+          </Carousel.Item>
+        );
+      })}
     </Carousel>
   );
 }
